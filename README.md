@@ -4,6 +4,8 @@ A configurable version of the owner's Home Assistant dashboard design. The **Hom
 
 The original private dashboard has 37 views. This package curates 22 views; the Home and Media pages have the detailed layouts, while the remaining pages are visual starting points. It does not include the owner's entity IDs, cameras, private device data, credentials, or conversation history.
 
+**Download the private preview:** [v0.1.0 ZIP](../../releases/download/v0.1.0-private-preview/my-home-ha-dashboard-private-preview-2026-10-05.zip). GitHub access is required while the repository remains private.
+
 ## Preview
 
 These screenshots show the **unmapped starter**, with example values. Controls become active only after the adopter maps their own devices.
