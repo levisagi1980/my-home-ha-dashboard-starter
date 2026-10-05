@@ -36,7 +36,7 @@ See [Home control mapping](docs/home-controls.md) for every key, expected entity
 
 ## Contents and dependencies
 
-- `dashboard.yaml` — generated 21-view Lovelace configuration with no live entity IDs.
+- `dashboard.yaml` — generated 22-view Lovelace configuration with no live entity IDs.
 - `mappings.example.json` and `scripts/build_dashboard.py` — starter configuration and generator.
 - `components/` — bundled Lovelace cards for Home, Media, and illustrated navigation.
 - `icons/` — reusable CSS, visual gallery, custom symbol index, and the built-in MDI names used by the original dashboard.
