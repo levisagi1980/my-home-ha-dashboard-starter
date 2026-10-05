@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Home — offline preview</title>
+<style>
+  body { margin:0; min-height:100vh; background:#15110e url("../assets/backgrounds/home-exterior-generic.png") center/cover fixed; color:#fff; }
+</style>
+<script src="../components/my-home-control-board.js"></script>
+<my-home-control-board id="board"></my-home-control-board>
+<script>
+  const board = document.getElementById("board");
+  board.setConfig({ assets_root:"../assets", base_path:"#", home_entities:{} });
+  board.hass = { states:{}, callService:async () => {} };
+</script>
+</html>

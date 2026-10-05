@@ -1,0 +1,12 @@
+{
+  "title": "My Home",
+  "dashboard_path": "vie-sauvage-starter",
+  "entities_by_view": {},
+  "home_entities": {},
+  "media": {
+    "player": "",
+    "music_assistant_config_entry_id": "",
+    "players": [],
+    "quick_actions": []
+  }
+}

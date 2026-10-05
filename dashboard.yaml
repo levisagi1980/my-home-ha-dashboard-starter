@@ -1,0 +1,961 @@
+# Generated starter dashboard. Edit mappings.json and rerun the builder.
+"title": "My Home"
+"views":
+  - "title": "Home"
+    "path": "home"
+    "type": "panel"
+    "theme": "Vie Sauvage Luxury"
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/home-exterior-generic.png"
+      "opacity": 75
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "cards":
+      - "type": "custom:my-home-control-board"
+        "assets_root": "/local/vie_sauvage_share/assets"
+        "base_path": "/vie-sauvage-starter"
+        "home_entities": 
+  - "title": "Scenes"
+    "path": "scenes"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background": "#0B0E0E"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Scenes\nReplace these starter tiles with your own Home Assistant scenes or scripts."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-good-morning.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Good Morning"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-good-night.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Good Night"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-entertain.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Entertain"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-movie.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Movie"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-backyard.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Backyard"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-away.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Away"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-pool-party.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Pool Party"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-all-off.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### All Off"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/scenes/scene-coffee.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Coffee"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Rooms"
+    "path": "rooms"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background": "#0B0E0E"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Rooms\nFictional room scenes are included; swap in your own photos whenever you like."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/rooms/living-room.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/living-room"
+              - "type": "markdown"
+                "content": "### Living Room"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/rooms/kitchen.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/kitchen"
+              - "type": "markdown"
+                "content": "### Kitchen"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/rooms/dining-room.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/dining-room"
+              - "type": "markdown"
+                "content": "### Dining Room"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/rooms/bedroom.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/bedroom"
+              - "type": "markdown"
+                "content": "### Bedroom"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/rooms/bathroom.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/bathroom"
+              - "type": "markdown"
+                "content": "### Bathroom"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/rooms/office.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/office"
+              - "type": "markdown"
+                "content": "### Office"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/rooms/patio.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/patio"
+              - "type": "markdown"
+                "content": "### Patio"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/rooms/laundry-room.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/laundry-room"
+              - "type": "markdown"
+                "content": "### Laundry Room"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/backgrounds/pool-page.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+                "tap_action":
+                  "action": "navigate"
+                  "navigation_path": "/vie-sauvage-starter/pool"
+              - "type": "markdown"
+                "content": "### Pool"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Cameras"
+    "path": "cameras"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background": "#0B0E0E"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Cameras\nAdd your own camera cards here. The starter contains no feeds, image URLs, or camera entity IDs."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+  - "title": "Security"
+    "path": "security"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/security-foliage.jpg"
+      "opacity": 75
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Security\nA starting point for your own home. Add your devices in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+  - "title": "Climate"
+    "path": "climate"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Climate\nA starting point for your own home. Add your devices in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+  - "title": "Energy"
+    "path": "energy"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/solar-page.jpg"
+      "opacity": 75
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Energy\nA starting point for your own home. Add your devices in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+  - "title": "Pool"
+    "path": "pool"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/pool-page.jpg"
+      "opacity": 75
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Pool\nA starting point for your own home. Add your devices in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+  - "title": "Vehicles"
+    "path": "vehicles"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/vehicle-page.jpg"
+      "opacity": 75
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Vehicles\nA starting point for your own home. Add your devices in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+  - "title": "Pets"
+    "path": "pets"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/pets-page.png"
+      "opacity": 75
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Pets\nA starting point for your own home. Add your devices in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+  - "title": "Lighting"
+    "path": "lighting"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Lighting\nA starting point for your own home. Add your devices in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+  - "title": "Media"
+    "path": "media"
+    "type": "panel"
+    "theme": "Vie Sauvage Luxury"
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/media-page.png"
+      "opacity": 75
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "cards":
+      - "type": "custom:my-home-media-board"
+        "assets_root": "/local/vie_sauvage_share/assets"
+        "base_path": "/vie-sauvage-starter"
+        "player": ""
+        "config_entry_id": ""
+        "players": 
+        "quick_actions": 
+  - "title": "Cleaning"
+    "path": "cleaning"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/cleaning-page.png"
+      "opacity": 75
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Cleaning\nA starting point for your own home. Add your devices in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/backgrounds/cleaning-card.png"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Appliances"
+    "path": "appliances"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Appliances\nProduct imagery is included. Map your own devices below the gallery."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/appliances/devices/kitchen-display-nest-hub-max-transparent-v2.png"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Kitchen Display Nest Hub Max Transparent V2"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/appliances/devices/lg-dishwasher-v2.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Lg Dishwasher V2"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/appliances/devices/lg-dryer-v3.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Lg Dryer V3"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/appliances/devices/lg-pedestal-washer-standalone-v4.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Lg Pedestal Washer Standalone V4"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/appliances/devices/lg-washer-v3.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Lg Washer V3"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/appliances/devices/samsung-bespoke-refrigerator-v2.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Samsung Bespoke Refrigerator V2"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+      - "type": "grid"
+        "cards":
+          - "type": "vertical-stack"
+            "cards":
+              - "type": "picture"
+                "image": "/local/vie_sauvage_share/assets/appliances/devices/samsung-cooktop-v2.jpg"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+              - "type": "markdown"
+                "content": "### Samsung Cooktop V2"
+                "card_mod":
+                  "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Living Room"
+    "path": "living-room"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Living Room\nChoose the lights, climate, and media devices for this room in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/rooms/living-room.jpg"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Kitchen"
+    "path": "kitchen"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Kitchen\nChoose the lights, climate, and media devices for this room in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/rooms/kitchen.jpg"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Dining Room"
+    "path": "dining-room"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Dining Room\nChoose the lights, climate, and media devices for this room in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/rooms/dining-room.jpg"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Bedroom"
+    "path": "bedroom"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Bedroom\nChoose the lights, climate, and media devices for this room in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/rooms/bedroom.jpg"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Bathroom"
+    "path": "bathroom"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Bathroom\nChoose the lights, climate, and media devices for this room in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/rooms/bathroom.jpg"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Office"
+    "path": "office"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Office\nChoose the lights, climate, and media devices for this room in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/rooms/office.jpg"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Patio"
+    "path": "patio"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Patio\nChoose the lights, climate, and media devices for this room in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/rooms/patio.jpg"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+  - "title": "Laundry Room"
+    "path": "laundry-room"
+    "type": "sections"
+    "theme": "Vie Sauvage Luxury"
+    "max_columns": 4
+    "background":
+      "image": "/local/vie_sauvage_share/assets/backgrounds/warm-interior.jpg"
+      "opacity": 68
+      "alignment": "center"
+      "size": "cover"
+      "repeat": "no-repeat"
+      "attachment": "fixed"
+    "sections":
+      - "type": "grid"
+        "cards":
+          - "type": "custom:my-home-nav-card"
+            "grid_options":
+              "columns": "full"
+            "sprite": "/local/vie_sauvage_share/assets/icons/luxury-nav-icons-normalized-20260930.png"
+            "base_path": "/vie-sauvage-starter"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "markdown"
+            "content": "# Laundry Room\nChoose the lights, climate, and media devices for this room in `mappings.json`."
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"
+        "column_span": 4
+      - "type": "grid"
+        "cards":
+          - "type": "picture"
+            "image": "/local/vie_sauvage_share/assets/rooms/laundry-room.jpg"
+            "card_mod":
+              "style": "ha-card { background: rgba(24,29,27,.72) !important; color: #F4F1ED !important;\n  border: 1px solid rgba(216,204,184,.30) !important; border-radius: 18px !important;\n  box-shadow: 0 12px 32px rgba(0,0,0,.24) !important; backdrop-filter: blur(12px); }"

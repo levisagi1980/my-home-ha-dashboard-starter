@@ -1,0 +1,43 @@
+/* Reusable illustrated symbols from the My Home dashboard starter.
+ * Keep icons/ next to assets/ so relative image URLs resolve. */
+:root { --my-home-symbol-size: 64px; }
+.my-home-symbol { display:inline-block; width:var(--my-home-symbol-size); height:var(--my-home-symbol-size); background-repeat:no-repeat; background-color:transparent; vertical-align:middle; }
+.my-home-nav-symbol { background-image:url("../assets/icons/luxury-nav-icons-normalized-20260930.png"); background-size:1300% 100%; }
+.my-home-nav-home { background-position:0.000000% 50%; }
+.my-home-nav-lighting { background-position:8.333333% 50%; }
+.my-home-nav-rooms { background-position:16.666667% 50%; }
+.my-home-nav-scenes { background-position:25.000000% 50%; }
+.my-home-nav-cameras { background-position:33.333333% 50%; }
+.my-home-nav-security { background-position:41.666667% 50%; }
+.my-home-nav-climate { background-position:50.000000% 50%; }
+.my-home-nav-media { background-position:58.333333% 50%; }
+.my-home-nav-energy { background-position:66.666667% 50%; }
+.my-home-nav-pool { background-position:75.000000% 50%; }
+.my-home-nav-pets { background-position:83.333333% 50%; }
+.my-home-nav-cleaning { background-position:91.666667% 50%; }
+.my-home-nav-more { background-position:100.000000% 50%; }
+.my-home-tile-symbol { background-size:400% 400%; }
+.my-home-sheet-01 { background-image:url("../assets/icons/tile-sprite-044d23918370.png"); }
+.my-home-sheet-02 { background-image:url("../assets/icons/tile-sprite-33685ce4e766.png"); }
+.my-home-sheet-03 { background-image:url("../assets/icons/tile-sprite-5f0800c5c808.png"); }
+.my-home-sheet-04 { background-image:url("../assets/icons/tile-sprite-6d0edd1c7a96.png"); }
+.my-home-sheet-05 { background-image:url("../assets/icons/tile-sprite-8b9ac56218d9.png"); }
+.my-home-sheet-06 { background-image:url("../assets/icons/tile-sprite-921145967837.png"); }
+.my-home-sheet-07 { background-image:url("../assets/icons/tile-sprite-a07cc8d67a7e.png"); }
+.my-home-sheet-08 { background-image:url("../assets/icons/tile-sprite-b17e29ebd7dd.png"); }
+.my-home-r1c1 { background-position:0.000000% 0.000000%; }
+.my-home-r1c2 { background-position:33.333333% 0.000000%; }
+.my-home-r1c3 { background-position:66.666667% 0.000000%; }
+.my-home-r1c4 { background-position:100.000000% 0.000000%; }
+.my-home-r2c1 { background-position:0.000000% 33.333333%; }
+.my-home-r2c2 { background-position:33.333333% 33.333333%; }
+.my-home-r2c3 { background-position:66.666667% 33.333333%; }
+.my-home-r2c4 { background-position:100.000000% 33.333333%; }
+.my-home-r3c1 { background-position:0.000000% 66.666667%; }
+.my-home-r3c2 { background-position:33.333333% 66.666667%; }
+.my-home-r3c3 { background-position:66.666667% 66.666667%; }
+.my-home-r3c4 { background-position:100.000000% 66.666667%; }
+.my-home-r4c1 { background-position:0.000000% 100.000000%; }
+.my-home-r4c2 { background-position:33.333333% 100.000000%; }
+.my-home-r4c3 { background-position:66.666667% 100.000000%; }
+.my-home-r4c4 { background-position:100.000000% 100.000000%; }

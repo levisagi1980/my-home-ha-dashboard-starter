@@ -1,0 +1,257 @@
+{
+  "navigation": {
+    "asset": "../assets/icons/luxury-nav-icons-normalized-20260930.png",
+    "symbols": [
+      {
+        "name": "home",
+        "index": 0
+      },
+      {
+        "name": "lighting",
+        "index": 1
+      },
+      {
+        "name": "rooms",
+        "index": 2
+      },
+      {
+        "name": "scenes",
+        "index": 3
+      },
+      {
+        "name": "cameras",
+        "index": 4
+      },
+      {
+        "name": "security",
+        "index": 5
+      },
+      {
+        "name": "climate",
+        "index": 6
+      },
+      {
+        "name": "media",
+        "index": 7
+      },
+      {
+        "name": "energy",
+        "index": 8
+      },
+      {
+        "name": "pool",
+        "index": 9
+      },
+      {
+        "name": "pets",
+        "index": 10
+      },
+      {
+        "name": "cleaning",
+        "index": 11
+      },
+      {
+        "name": "more",
+        "index": 12
+      }
+    ]
+  },
+  "tile_sheets": [
+    {
+      "id": "sheet-01",
+      "asset": "../assets/icons/tile-sprite-044d23918370.png",
+      "grid": "4 columns by 4 rows",
+      "slots": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4"
+      ]
+    },
+    {
+      "id": "sheet-02",
+      "asset": "../assets/icons/tile-sprite-33685ce4e766.png",
+      "grid": "4 columns by 4 rows",
+      "slots": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4"
+      ]
+    },
+    {
+      "id": "sheet-03",
+      "asset": "../assets/icons/tile-sprite-5f0800c5c808.png",
+      "grid": "4 columns by 4 rows",
+      "slots": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4"
+      ]
+    },
+    {
+      "id": "sheet-04",
+      "asset": "../assets/icons/tile-sprite-6d0edd1c7a96.png",
+      "grid": "4 columns by 4 rows",
+      "slots": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4"
+      ]
+    },
+    {
+      "id": "sheet-05",
+      "asset": "../assets/icons/tile-sprite-8b9ac56218d9.png",
+      "grid": "4 columns by 4 rows",
+      "slots": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4"
+      ]
+    },
+    {
+      "id": "sheet-06",
+      "asset": "../assets/icons/tile-sprite-921145967837.png",
+      "grid": "4 columns by 4 rows",
+      "slots": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4"
+      ]
+    },
+    {
+      "id": "sheet-07",
+      "asset": "../assets/icons/tile-sprite-a07cc8d67a7e.png",
+      "grid": "4 columns by 4 rows",
+      "slots": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4"
+      ]
+    },
+    {
+      "id": "sheet-08",
+      "asset": "../assets/icons/tile-sprite-b17e29ebd7dd.png",
+      "grid": "4 columns by 4 rows",
+      "slots": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4"
+      ]
+    }
+  ],
+  "appliance_control_svgs": [
+    "../assets/appliances/icons/neo-device-display.svg",
+    "../assets/appliances/icons/neo-group.svg",
+    "../assets/appliances/icons/neo-idle.svg",
+    "../assets/appliances/icons/neo-mute.svg",
+    "../assets/appliances/icons/neo-play.svg",
+    "../assets/appliances/icons/neo-power.svg",
+    "../assets/appliances/icons/neo-remote.svg",
+    "../assets/appliances/icons/neo-unavailable.svg",
+    "../assets/appliances/icons/neo-volume.svg"
+  ],
+  "alternate_navigation_svg": "../assets/icons/luxury-nav-sprite-ivory.svg"
+}

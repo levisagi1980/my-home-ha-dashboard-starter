@@ -1,0 +1,143 @@
+---
+Vie Sauvage Luxury:
+  modes:
+    light:
+      primary-background-color: "#0B0C0C"
+    dark:
+      primary-background-color: "#0B0C0C"
+  primary-background-color: "#0B0C0C"
+  secondary-background-color: rgba(235, 226, 217, 0.10)
+  card-background-color: rgba(34, 36, 36, 0.22)
+  ha-card-background: rgba(34, 36, 36, 0.22)
+  clear-background-color: rgba(235, 226, 217, 0.10)
+  paper-card-background-color: rgba(34, 36, 36, 0.22)
+  primary-text-color: "#F4F1ED"
+  text-primary-color: "#F4F1ED"
+  secondary-text-color: "#C9C2BA"
+  disabled-text-color: rgba(183, 184, 163, 0.45)
+  divider-color: rgba(238, 237, 229, 0.10)
+  primary-color: "#D5A36F"
+  light-primary-color: "#E8C49B"
+  dark-primary-color: "#554435"
+  accent-color: "#D5A36F"
+  rgb-primary-color: 216, 204, 184
+  rgb-accent-color: 164, 207, 168
+  rgb-primary-text-color: 238, 237, 229
+  rgb-secondary-text-color: 183, 184, 163
+  rgb-primary-background-color: 11, 14, 14
+  rgb-secondary-background-color: 26, 31, 30
+  app-header-background-color: rgba(11, 12, 12, 0.82)
+  app-header-text-color: "#F4F1ED"
+  app-header-selection-bar-color: "#E8C49B"
+  sidebar-background-color: "#0B0C0C"
+  sidebar-text-color: "#C9C2BA"
+  sidebar-icon-color: "#C9C2BA"
+  sidebar-selected-background-color: rgba(213, 163, 111, 0.20)
+  sidebar-selected-text-color: "#F4F1ED"
+  sidebar-selected-icon-color: "#E8C49B"
+  paper-item-icon-color: "#B7B8A3"
+  paper-item-icon-active-color: "#E8C49B"
+  state-icon-color: "#B7B8A3"
+  state-icon-active-color: "#E8C49B"
+  state-light-color: "#D8CCB8"
+  state-light-active-color: "#D8CCB8"
+  state-media-player-color: "#D8CCB8"
+  state-media-player-active-color: "#D8CCB8"
+  state-media-player-idle-color: "#D8CCB8"
+  state-media-player-paused-color: "#D8CCB8"
+  state-media-player-playing-color: "#D8CCB8"
+  state-media-player-on-color: "#D8CCB8"
+  state-media-player-off-color: "#B7B8A3"
+  state-media_player-active-color: "#D8CCB8"
+  state-media_player-idle-color: "#D8CCB8"
+  state-media_player-paused-color: "#D8CCB8"
+  state-media_player-playing-color: "#D8CCB8"
+  state-media_player-on-color: "#D8CCB8"
+  state-media_player-off-color: "#B7B8A3"
+  state-media_player-speaker-idle-color: "#D8CCB8"
+  state-media_player-speaker-paused-color: "#D8CCB8"
+  state-media_player-speaker-playing-color: "#D8CCB8"
+  state-media_player-speaker-off-color: "#B7B8A3"
+  rgb-state-light: 216, 204, 184
+  rgb-state-media-player: 216, 204, 184
+  state-active-color: "#E8C49B"
+  state-inactive-color: "#98928C"
+  state-unavailable-color: rgba(183, 184, 163, 0.42)
+  switch-checked-color: "#D5A36F"
+  switch-checked-button-color: "#D5A36F"
+  switch-checked-track-color: rgba(145, 214, 159, 0.42)
+  switch-unchecked-button-color: "#B7B8A3"
+  switch-unchecked-track-color: rgba(183, 184, 163, 0.28)
+  slider-color: "#D5A36F"
+  slider-secondary-color: "#E8C49B"
+  slider-track-color: "#433F36"
+  slider-thumb-color: "#E8C49B"
+  paper-slider-active-color: "#D8CCB8"
+  paper-slider-knob-color: "#D8CCB8"
+  paper-slider-container-color: "#433F36"
+  control-slider-color: "#D8CCB8"
+  control-slider-background: "#433F36"
+  md-slider-active-track-color: "#D8CCB8"
+  md-slider-handle-color: "#D8CCB8"
+  md-slider-inactive-track-color: "#433F36"
+  mdc-theme-primary: "#D8CCB8"
+  mdc-theme-secondary: "#A4CFA8"
+  mdc-theme-surface: "#1A1F1E"
+  mdc-theme-background: "#0B0E0E"
+  mdc-theme-on-primary: "#0B0E0E"
+  mdc-theme-on-secondary: "#0B0E0E"
+  mdc-theme-on-surface: "#EEEDE5"
+  md-sys-color-primary: "#D8CCB8"
+  md-sys-color-on-primary: "#0B0E0E"
+  md-sys-color-secondary: "#A4CFA8"
+  md-sys-color-on-secondary: "#0B0E0E"
+  md-sys-color-surface: "#1A1F1E"
+  md-sys-color-surface-container: "#1A1F1E"
+  md-sys-color-surface-container-low: "#0B0E0E"
+  md-sys-color-surface-container-high: "#2D2E2A"
+  md-sys-color-surface-container-highest: "#433F36"
+  md-sys-color-on-surface: "#EEEDE5"
+  md-sys-color-on-surface-variant: "#B7B8A3"
+  md-sys-color-outline: rgba(104, 96, 84, 0.65)
+  md-sys-color-outline-variant: rgba(238, 237, 229, 0.10)
+  md-sys-color-shadow: rgba(0, 0, 0, 0.38)
+  md-sys-color-scrim: rgba(0, 0, 0, 0.38)
+  dialog-surface-background: "#1A1F1E"
+  more-info-header-background: "#1A1F1E"
+  more-info-header-foreground: "#EEEDE5"
+  input-fill-color: "#2D2E2A"
+  input-ink-color: "#EEEDE5"
+  input-label-ink-color: "#B7B8A3"
+  input-disabled-fill-color: rgba(45, 46, 42, 0.55)
+  markdown-code-background-color: "#2D2E2A"
+  table-row-background-color: "#1A1F1E"
+  table-row-alternative-background-color: "#2D2E2A"
+  label-badge-background-color: "#2D2E2A"
+  label-badge-text-color: "#EEEDE5"
+  label-badge-red: "#C79A87"
+  label-badge-green: "#A4CFA8"
+  label-badge-blue: "#D8CCB8"
+  ha-card-border-color: rgba(255, 255, 255, 0.16)
+  ha-card-border-width: 1px
+  ha-card-box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255, 255,
+    255, 0.10)
+  mush-rgb-state-light: 216, 204, 184
+  mush-rgb-state-media-player: 216, 204, 184
+  mush-rgb-state-climate: 145, 214, 159
+  mush-rgb-state-lock: 145, 214, 159
+  mush-rgb-state-fan: 145, 214, 159
+  mush-rgb-state-vacuum: 145, 214, 159
+  mush-rgb-state-switch: 145, 214, 159
+  lux-bg: "#0B0C0C"
+  lux-text: "#F4F1ED"
+  lux-secondary: "#C9C2BA"
+  lux-muted: "#98928C"
+  lux-champagne: "#D5A36F"
+  lux-champagne-soft: "#E8C49B"
+  lux-success: "#9EB7A1"
+  lux-critical: "#C96F67"
+  lux-climate: "#9DAFBB"
+  lux-glass: rgba(34, 36, 36, 0.22)
+  lux-glass-elevated: rgba(235, 226, 217, 0.20)
+  lux-glass-subtle: rgba(190, 187, 183, 0.10)
+  lux-glass-border: rgba(255, 255, 255, 0.16)

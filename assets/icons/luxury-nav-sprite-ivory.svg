@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="52" viewBox="0 0 780 52">
+  <defs>
+    <linearGradient id="metal" x1=".1" y1="0" x2=".88" y2="1"><stop stop-color="#F5F4EE"/><stop offset=".26" stop-color="#E1E1D9"/><stop offset=".54" stop-color="#9EA39F"/><stop offset=".77" stop-color="#ECEDE6"/><stop offset="1" stop-color="#606764"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5C625F"/><stop offset=".35" stop-color="#303735"/><stop offset="1" stop-color="#171D1C"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9DDD8" stop-opacity=".55"/><stop offset=".5" stop-color="#626B68" stop-opacity=".46"/><stop offset="1" stop-color="#131A19" stop-opacity=".9"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#F2F3EC" stop-opacity=".74"/><stop offset="1" stop-color="#F2F3EC" stop-opacity="0"/></radialGradient>
+    <filter id="depth" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="1.6" flood-color="#080B0A" flood-opacity=".8"/><feDropShadow dx="0" dy="0" stdDeviation=".6" flood-color="#F4F3E8" flood-opacity=".32"/></filter>
+  </defs>
+  <!-- Home -->
+  <g transform="translate(0)" filter="url(#depth)"><path d="M8 23 26 8l18 15v21H8Z" fill="url(#body)" stroke="url(#metal)" stroke-width="2.4" stroke-linejoin="round"/><path d="M7 23 26 8l19 15" fill="none" stroke="#F5F4EE" stroke-opacity=".72" stroke-width="1"/><path d="M22 44V30h8v14" fill="url(#glass)" stroke="url(#metal)" stroke-width="1.6"/><path d="M11 27h7v8h-7zm23 0h7v8h-7z" fill="#D9DDD8" opacity=".34"/></g>
+  <!-- Lighting -->
+  <g transform="translate(52)" filter="url(#depth)"><ellipse cx="26" cy="21" rx="15" ry="17" fill="url(#glass)" stroke="url(#metal)" stroke-width="2"/><path d="M21 37v3h10v-3m-9 6h8m-7 3h6" stroke="url(#metal)" stroke-width="2.5" stroke-linecap="round"/><path d="M22 31c0-5-5-7-5-13a9 9 0 0 1 18 0c0 6-5 8-5 13" fill="none" stroke="#F0F0E8" stroke-width="1.4"/><path d="M23 31h6m-7-11 4 4 4-4" fill="none" stroke="#F5F4EE" stroke-width="1.5"/><circle cx="26" cy="20" r="16" fill="url(#glow)" opacity=".27"/></g>
+  <!-- Rooms -->
+  <g transform="translate(104)" filter="url(#depth)"><path d="M9 29q0-5 5-5h24q5 0 5 5v11H9Z" fill="url(#body)" stroke="url(#metal)" stroke-width="2"/><path d="M13 25v-8q0-6 6-6h14q6 0 6 6v8M8 31q0-4 4-4t4 4v8H8m36-8q0-4-4-4t-4 4v8h8" fill="url(#glass)" stroke="url(#metal)" stroke-width="1.8"/><path d="M15 37h22m-24 3v4m26-4v4" stroke="#E8E8DF" stroke-width="1.5"/></g>
+  <!-- Scenes -->
+  <g transform="translate(156)" filter="url(#depth)"><path d="m26 7 3.8 11.2L41 22l-11.2 3.8L26 37l-3.8-11.2L11 22l11.2-3.8Z" fill="url(#metal)" stroke="#F5F4EE" stroke-width=".8"/><path d="m40 33 1.9 5.1L47 40l-5.1 1.9L40 47l-1.9-5.1L33 40l5.1-1.9Zm-29 1 1.4 3.6L16 39l-3.6 1.4L11 44l-1.4-3.6L6 39l3.6-1.4Z" fill="url(#metal)"/></g>
+  <!-- Cameras -->
+  <g transform="translate(208)" filter="url(#depth)"><rect x="7" y="15" width="29" height="23" rx="5" fill="url(#body)" stroke="url(#metal)" stroke-width="2"/><path d="m36 20 9-6v25l-9-6Z" fill="url(#glass)" stroke="url(#metal)" stroke-width="2" stroke-linejoin="round"/><circle cx="22" cy="26" r="7.5" fill="#1A1E20" stroke="url(#metal)" stroke-width="2"/><circle cx="22" cy="26" r="3.2" fill="#414B49" stroke="#D9DDD8" stroke-width=".8"/><path d="M10 18h12" stroke="#F5F4EE" stroke-opacity=".65"/></g>
+  <!-- Security -->
+  <g transform="translate(260)" filter="url(#depth)"><path d="M26 5 43 12v14c0 10-7 17-17 21C16 43 9 36 9 26V12Z" fill="url(#body)" stroke="url(#metal)" stroke-width="2.5"/><path d="M26 9 39 14v12c0 8-5 13-13 17-8-4-13-9-13-17V14Z" fill="url(#glass)" stroke="#E8E8DF" stroke-opacity=".55"/><path d="m18 25 8-7 8 7v10H18Z" fill="url(#metal)"/><path d="M24 35v-8h4v8" fill="#252C2A"/></g>
+  <!-- Climate -->
+  <g transform="translate(312)" filter="url(#depth)"><rect x="20" y="6" width="12" height="29" rx="6" fill="url(#body)" stroke="url(#metal)" stroke-width="2"/><circle cx="26" cy="39" r="8" fill="url(#body)" stroke="url(#metal)" stroke-width="2"/><path d="M26 16v22" stroke="#F0F0E8" stroke-width="3" stroke-linecap="round"/><circle cx="26" cy="39" r="4" fill="#E4E5DD"/><path d="M35 13h5m-5 6h4m-4 6h5" stroke="url(#metal)" stroke-width="1.5"/></g>
+  <!-- Media -->
+  <g transform="translate(364)" filter="url(#depth)"><path d="M21 12v25m0-25 20-5v26" fill="none" stroke="url(#metal)" stroke-width="4" stroke-linejoin="round"/><path d="m21 17 20-5" stroke="#F5F4EE" stroke-opacity=".7"/><ellipse cx="14" cy="39" rx="8" ry="5" transform="rotate(-18 14 39)" fill="url(#metal)"/><ellipse cx="34" cy="35" rx="8" ry="5" transform="rotate(-18 34 35)" fill="url(#metal)"/></g>
+  <!-- Energy -->
+  <g transform="translate(416)" filter="url(#depth)"><path d="M29 4 12 27h13l-4 21 20-27H28Z" fill="url(#metal)" stroke="#F5F4EE" stroke-width="1.2" stroke-linejoin="round"/><path d="m29 8-12 17h11" fill="none" stroke="#F5F4EE" stroke-opacity=".65" stroke-width="1"/></g>
+  <!-- Activity -->
+  <g transform="translate(468)" filter="url(#depth)"><circle cx="26" cy="26" r="18" fill="url(#body)" stroke="url(#metal)" stroke-width="2.3"/><circle cx="26" cy="26" r="14" fill="url(#glass)" stroke="#E8E8DF" stroke-opacity=".5"/><path d="M26 15v12l8 5" fill="none" stroke="#F0F0E8" stroke-width="2.7" stroke-linecap="round"/><circle cx="26" cy="26" r="2" fill="#F5F4EE"/></g>
+  <!-- Cleaning -->
+  <g transform="translate(520)" filter="url(#depth)"><ellipse cx="26" cy="29" rx="18" ry="14" fill="url(#body)" stroke="url(#metal)" stroke-width="2.3"/><ellipse cx="26" cy="27" rx="13" ry="9" fill="url(#glass)" stroke="#E8E8DF" stroke-opacity=".6"/><circle cx="26" cy="27" r="4" fill="#252C2A" stroke="url(#metal)" stroke-width="1.5"/><path d="M13 38h26m-23-21 3-5h14l3 5" stroke="#E1E1D9" stroke-width="1.5"/></g>
+  <!-- Pets -->
+  <g transform="translate(572)" filter="url(#depth)"><path d="M16 31c4-2 5-9 10-9s6 7 10 9c5 3 4 10-1 12-4 2-6-1-9-1s-5 3-9 1c-5-2-6-9-1-12Z" fill="url(#metal)" stroke="#F5F4EE" stroke-width="1"/><ellipse cx="12" cy="22" rx="4" ry="6" transform="rotate(-20 12 22)" fill="url(#metal)"/><ellipse cx="21" cy="15" rx="4" ry="6" transform="rotate(-8 21 15)" fill="url(#metal)"/><ellipse cx="31" cy="15" rx="4" ry="6" transform="rotate(8 31 15)" fill="url(#metal)"/><ellipse cx="40" cy="22" rx="4" ry="6" transform="rotate(20 40 22)" fill="url(#metal)"/></g>
+  <!-- More -->
+  <g transform="translate(624)" filter="url(#depth)"><circle cx="12" cy="26" r="5" fill="url(#metal)" stroke="#F5F4EE" stroke-width=".6"/><circle cx="26" cy="26" r="5" fill="url(#metal)" stroke="#F5F4EE" stroke-width=".6"/><circle cx="40" cy="26" r="5" fill="url(#metal)" stroke="#F5F4EE" stroke-width=".6"/></g>
+  <!-- Settings -->
+  <g transform="translate(676)" filter="url(#depth)"><path d="M22 6h8l2 5 5 2 5-2 5 7-3 4v7l3 4-5 7-5-2-5 2-2 5h-8l-2-5-5-2-5 2-5-7 3-4v-7l-3-4 5-7 5 2 5-2Z" fill="url(#body)" stroke="url(#metal)" stroke-width="2"/><circle cx="26" cy="26" r="8" fill="url(#glass)" stroke="url(#metal)" stroke-width="2.2"/></g>
+  <!-- Notifications -->
+  <g transform="translate(728)" filter="url(#depth)"><path d="M14 37c3-3 4-7 4-15a8 8 0 0 1 16 0c0 8 1 12 4 15Z" fill="url(#body)" stroke="url(#metal)" stroke-width="2.2"/><path d="M21 39a5 5 0 0 0 10 0" fill="none" stroke="url(#metal)" stroke-width="2"/><path d="M20 19c1-3 3-5 6-5" stroke="#F5F4EE" stroke-opacity=".65" stroke-width="1.5"/></g>
+</svg>
