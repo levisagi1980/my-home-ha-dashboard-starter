@@ -4,7 +4,7 @@ A configurable version of the owner's Home Assistant dashboard design. The **Hom
 
 The original private dashboard has 37 views. This package curates 22 views; the Home and Media pages have the detailed layouts, while the remaining pages are visual starting points. It does not include the owner's entity IDs, cameras, private device data, credentials, or conversation history.
 
-**Download the private preview:** [v0.1.0 ZIP](../../releases/download/v0.1.0-private-preview/my-home-ha-dashboard-private-preview-2026-10-05.zip). GitHub access is required while the repository remains private.
+**Download the starter:** [v0.1.0 ZIP](../../releases/download/v0.1.0/my-home-ha-dashboard-starter-v0.1.0.zip).
 
 ## Preview
 
@@ -63,6 +63,6 @@ The Media board shows sample albums and playlists until a Music Assistant config
 
 ## Privacy and distribution
 
-The Home exterior and eight room scenes are fictional generated assets. The Rooms page Pool tile reuses the approved Pool page background. No live HA configuration, camera image, entity ID, token, address, or private dashboard screenshot is included. The repository is intended to be **private first** so the owner can inspect its contents and screenshots. Choose code and artwork licensing before making it public.
+The Home exterior and eight room scenes are fictional generated assets. The Rooms page Pool tile reuses the approved Pool page background. No live HA configuration, camera image, entity ID, token, address, or private dashboard screenshot is included. The package is a public starter; review its examples before mapping your own devices. You may download and adapt it for your own Home Assistant installation. A broader redistribution or publication license for the code and artwork has not been assigned; contact the owner before sharing a modified package.
 
 Run `python3 scripts/validate_package.py` after edits. It checks views, bundled references and components, screenshots, and known private markers. Review new assets and mappings yourself before sharing.
